@@ -22,7 +22,7 @@ export class browseListContainer extends React.Component {
             <li key={i}><Link to={`/info/${word.id}`}>{word.name}</Link></li>
         );
         return (
-            <div className="mylistcontainer">
+            <div className="browselistcontainer">
                 <ul>
                     {listItems}
                 </ul>
@@ -55,7 +55,7 @@ export class browseListContainer extends React.Component {
 
                     <button type="submit">Search</button>
                 </form>
-                <div className="mylistcontainer">
+                <div className="browselistcontainer">
                     <ul>
                         {this.renderResults()}
                     </ul>

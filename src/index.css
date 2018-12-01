@@ -33,6 +33,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-content: space-around;
+  
 }
 .landing-page {
   display: flex;
@@ -60,7 +61,7 @@ a{
   display:flex;
   justify-content: space-around;
   background: black;
-  width: 200px;
+  width: 150px;
   padding:10px;
   margin: 10px;
   border-radius: 5px;
@@ -74,7 +75,7 @@ a{
   color: black;
 }
 .addword{  
-  width: 30%;
+  width: 50%;
   margin: 0 auto;
   padding: 10px;
   border: 3px solid black;
@@ -113,11 +114,16 @@ margin: 0 auto;
   margin: 0 auto;
 }
 .mylistcontainer{
-  width: 450px;
+  width: 90%;
   border: 3px solid black;
   border-radius: 5px;
   overflow: auto;
+}
+.browselistcontainer{
+  width: 90%;
 
+  border-radius: 5px;
+  overflow: auto;
 }
 .sign-up-Div{
   width: 90%;
