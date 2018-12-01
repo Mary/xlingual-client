@@ -1,0 +1,170 @@
+body {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.logo{
+  width: 50vw;
+ display:flex;
+ padding-top:50px;
+ padding-bottom: 25px;
+  top:0;
+  left: 0;
+  margin: 0 auto;
+}
+#bg{
+  height: 100vh;
+  object-fit: contain;
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: -1;
+}
+#root{
+  width:100%;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+}
+.landing-page {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+.desc{
+  text-align: center;
+  font-size: 70%;
+}
+.dashboard {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+a{
+  display: block;
+  color: white;
+  text-decoration: none;
+
+}
+.black-button{
+  display:flex;
+  justify-content: space-around;
+  background: black;
+  width: 100px;
+  padding:10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.close-button{
+  color: grey;
+  font-size: 60%;
+  padding:10px;
+}
+.fa-window-close{
+  color: black;
+}
+.addword{  
+  width: 30%;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid black;
+
+}
+.browse{
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid black;
+}
+.loginpage{
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+.signuppage{
+  width: 30%;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid black;
+}
+.info{
+  width: 450px;
+  height: 300px;
+  overflow: auto;
+  padding: 20px;
+}
+.mylist{
+  width: 90%;
+  margin: 0 auto;
+}
+.mylistcontainer{
+  width: 450px;
+  height: 250px;
+  overflow: auto;
+
+}
+.sign-up-Div{
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid black;
+}
+.sign-up-form input:focus{
+  outline: none !important;
+  border:1px solid red;
+  box-shadow: 0 0 10px #719ECE;
+  
+}
+.banner{
+  display: flex;
+  background-color: black;
+  padding:5px;
+  justify-content: center;
+}
+.banner img{
+  width: 35%;
+  height: 35%;
+}
+.header{
+display:flex;
+justify-content: space-between;
+padding: 01em;
+
+}
+.footer{
+  position: absolute;
+  bottom:0;
+  right: 0;
+  margin: 20px;
+}
+label{
+  display:block;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  border: 1px solid black;
+  margin: 15px;
+  background-color: black;
+  padding-left: 5px;
+  height:19px;
+  width: 75%;
+  color: white
+
+
+
+}
