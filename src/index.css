@@ -10,6 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 .logo{
   width: 50vw;
  display:flex;
@@ -59,7 +60,7 @@ a{
   display:flex;
   justify-content: space-around;
   background: black;
-  width: 100px;
+  width: 200px;
   padding:10px;
   margin: 10px;
   border-radius: 5px;
@@ -76,30 +77,34 @@ a{
   width: 30%;
   margin: 0 auto;
   padding: 10px;
-  border: 1px solid black;
+  border: 3px solid black;
+  border-radius: 5px;
 
 }
 .browse{
   width: 50%;
   margin: 0 auto;
   padding: 10px;
-  border: 1px solid black;
+  border: 3px solid black;
+  border-radius: 5px;
 }
 .loginpage{
     width: 30%;
     margin: 0 auto;
     padding: 10px;
-    border: 1px solid black;
+    border: 3px solid black;
+    border-radius: 5px;
 }
 .signuppage{
   width: 30%;
   margin: 0 auto;
   padding: 10px;
-  border: 1px solid black;
+  border: 3px solid black;
+  border-radius: 5px;
 }
 .info{
-  width: 450px;
-
+  width: 90%;
+margin: 0 auto;
   overflow: auto;
   padding: 20px;
 }
@@ -109,7 +114,8 @@ a{
 }
 .mylistcontainer{
   width: 450px;
-
+  border: 3px solid black;
+  border-radius: 5px;
   overflow: auto;
 
 }
@@ -117,7 +123,8 @@ a{
   width: 90%;
   margin: 0 auto;
   padding: 10px;
-  border: 1px solid black;
+  border: 3px solid black;
+  border-radius: 5px;
 }
 .sign-up-form input:focus{
   outline: none !important;
@@ -163,8 +170,28 @@ li{
   background-color: black;
   padding-left: 5px;
   width: 75%;
-  color: white
+  color: white;
+  border-radius: 5px;
+}
+@media only screen and (min-width: 436px) {
+  
+  html {
+  font: 200%/1.25 "Open Sans", sans-serif;
+}
+}
+dt {
+  font-weight: bold;
+}
 
+dl,
+dd {
+  font-size: .9rem;
+}
 
-
+dd {
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 1em;
+  background-color: black;
+  color: white;
 }

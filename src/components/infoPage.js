@@ -37,11 +37,15 @@ export class infoPage extends React.Component {
                 <Header title="Info" />
                 {this.props.selectedWord &&
                     <div className="info">
-
-                        word: <li>{this.props.selectedWord.name}</li>
-                        language: <li>{this.props.selectedWord.language}</li>
-                        definition: <li>{this.props.selectedWord.definition}</li>
-                        {deleteWordButton}
+                        <dl>
+                            <dt>word:</dt>
+                            <dd>{this.props.selectedWord.name}</dd>
+                            <dt>language: </dt>
+                            <dd>{this.props.selectedWord.language}</dd>
+                            <dt>definition:</dt>
+                            <dd>{this.props.selectedWord.definition}</dd>
+                            {deleteWordButton}
+                        </dl>
                     </div>
                 }
             </React.Fragment>
