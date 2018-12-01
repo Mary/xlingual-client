@@ -99,7 +99,7 @@ a{
 }
 .info{
   width: 450px;
-  height: 300px;
+
   overflow: auto;
   padding: 20px;
 }
@@ -109,7 +109,7 @@ a{
 }
 .mylistcontainer{
   width: 450px;
-  height: 250px;
+
   overflow: auto;
 
 }
@@ -136,6 +136,7 @@ a{
   height: 35%;
 }
 .header{
+  width: 90%;
 display:flex;
 justify-content: space-between;
 padding: 01em;
@@ -161,7 +162,6 @@ li{
   margin: 15px;
   background-color: black;
   padding-left: 5px;
-  height:19px;
   width: 75%;
   color: white
 
