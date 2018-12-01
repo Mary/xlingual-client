@@ -11,7 +11,8 @@ export function SignUpPage(props) {
         return <Redirect to="/dashboard" />;
     }
     return (
-        <React.Fragment><Banner />
+        <React.Fragment>
+            <Banner />
             <Header title="Sign Up" />
             <div className="signuppage">
 
