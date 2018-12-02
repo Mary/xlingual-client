@@ -46,7 +46,6 @@ body {
   font-size: 70%;
 }
 .dashboard {
-  height: 100vh;
   display: flex;
   margin: 0 auto;
   flex-direction: column;
