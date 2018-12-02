@@ -46,6 +46,7 @@ body {
   font-size: 70%;
 }
 .dashboard {
+  height: 100vh;
   display: flex;
   margin: 0 auto;
   flex-direction: column;
@@ -135,6 +136,8 @@ margin: 0 auto;
 input{
   border-radius: 2px;
   border: 2px solid black;
+  width:70%;
+  
 }
 input [type=text] {
   font-weight: bold !important;
@@ -191,7 +194,7 @@ padding: 01em;
 
 }
 .footer{
-  position: absolute;
+  position: fixed;
   bottom:0;
   right: 0;
   margin: 20px;
