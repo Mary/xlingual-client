@@ -132,12 +132,47 @@ margin: 0 auto;
   border: 3px solid black;
   border-radius: 5px;
 }
+input{
+  border-radius: 2px;
+  border: 2px solid black;
+}
+input [type=text] {
+  font-weight: bold !important;
+}
 .sign-up-form input:focus{
   outline: none !important;
-  border:1px solid red;
-  box-shadow: 0 0 10px #719ECE;
-  
+  border:2px solid #eb3bf6;
 }
+.sign-up-form textarea:focus, input:focus {
+  color: #ee8743;
+  font-weight: bold;
+}
+
+.login-form input:focus{
+  outline: none !important;
+  border:2px solid #b1f63a;
+}
+.login-form textarea:focus, input:focus {
+  color: #63bdd0;
+  font-weight: bold;
+}
+.addWordForm input:focus{
+outline: none !important;
+border:2px solid #3b8eec
+}
+.addWordForm textarea:focus, input:focus {
+  color: #e9a400;
+  font-weight: bold;
+}
+
+.addWordForm textarea:focus{
+  outline: none !important;
+  border:2px solid #3b8eec
+  }
+  .addWordForm textarea:focus, input:focus {
+    color: #e9a400;
+    font-weight: bold;
+  }
 .banner{
   display: flex;
   background-color: black;
