@@ -14,10 +14,12 @@ export function LandingPage(props) {
 
     return (
         <React.Fragment>
-
-            <img class="logo" src={Logo} />
+            <div className="logo-div">
+                <img className="logo" src={Logo} />
+            </div>
             <div className="landing-page">
-                <h2>Welcome xlingual</h2>
+         
+                <h2>Welcome to xlingual</h2>
                 <i>The Global Dictionary</i><br>
                 </br>
                 <div className="desc">
@@ -26,14 +28,10 @@ export function LandingPage(props) {
                     1. Add words to your private list. <br></br>
                     2. Make words Global so others can access them. <br></br>
                     3. Browse other's Global words
-        </div>
+                 </div>
                 <br></br>
-                <div>
-                    <Link className="black-button" to="/sign-up">Sign Up</Link>
-                </div>
-                <div>
-                    <Link className="black-button" to="/login">Login</Link>
-                </div>
+                <Link className="black-button" to="/sign-up">Sign Up</Link>
+                <Link className="black-button" to="/login">Login</Link>
             </div>
         </React.Fragment>
     );
