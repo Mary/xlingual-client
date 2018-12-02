@@ -53,7 +53,7 @@ export class addWordForm extends React.Component {
                             name="global"
                             label="Make Global"
                         />
-                        <button type="submit">Submit</button>
+                        <button type="submit"><i className="fas fa-plus-square"></i> Add Word</button>
                     </form>
                 </div>
             );

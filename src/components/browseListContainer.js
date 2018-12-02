@@ -53,7 +53,7 @@ export class browseListContainer extends React.Component {
                         <option value="other">Other Language</option>
                     </Field>
 
-                    <button type="submit">Search</button>
+                    <button type="submit"><i className="fas fa-search"></i> Browse</button>
                 </form>
                 <div className="browselistcontainer">
                     <ul>
