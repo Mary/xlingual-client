@@ -14,12 +14,10 @@ export function LandingPage(props) {
 
     return (
         <React.Fragment>
-            <div className="logo-div">
-                <img className="logo" src={Logo} />
-            </div>
+       
             <div className="landing-page">
-         
-                <h2>Welcome to xlingual</h2>
+            <img className="logo" src={Logo} />
+               
                 <i>The Global Dictionary</i><br>
                 </br>
                 <div className="desc">
