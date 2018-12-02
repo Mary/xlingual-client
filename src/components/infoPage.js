@@ -28,7 +28,7 @@ export class infoPage extends React.Component {
         let deleteWordButton;
         if (this.props.selectedWord.user_Id === this.props.username.id) {
             deleteWordButton = (
-                <button onClick={() => this.triggerDelete(id)}><i class="fas fa-trash-alt"></i> Delete Word</button>
+                <button onClick={() => this.triggerDelete(id)}><i className="fas fa-trash-alt"></i> Delete Word</button>
             );
         }
         return (
