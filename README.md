@@ -1,7 +1,7 @@
 ## xlingual 
 **DEMO LOGIN CREDENTIALS:** <br/>
 user: **demo**<br/>
-pass: **demodemodemo**<br/>
+pass: **demo123456**<br/>
 
 Welcome to xlingual --The Global Dictionary.<br/><br/>
 
