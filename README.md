@@ -31,37 +31,38 @@ Expand your vocabulary to a global level.
  - passport.js<br/>
  - JWT Token<br/>
  - bcrypt<br/>
+
 **Node.js** - Javascript runtime environment<br/>
 **Mongoose/MongoDB** - Data is being stored in a MongoDB environment after being cleaned and prepped via Mongoose schemas/virtuals/models.<br/>
 
-### **`LINKS`**
+### **`LINKS`** 
 [xlingual Client-Side](https://xlingual-client.herokuapp.com/)<br/>
 [xlingual Server-Side](https://xlingual-server.herokuapp.com/)<br/>
 
-**Github repos here:** 
+**Github Repos:** <br/>
 
 front-end: https://github.com/mkcnly/xlingual-client<br/>
 
 back-end: https://github.com/mkcnly/xlingual-server<br/>
 
-### **`Navigating Repos`**
-**Front-end example routes** 
+### **`Navigating Repos`**<br/>
+**Front-end example routes** <br/>
 Root-component: src/components/app.js<br/>
 Landing-Page: src/components/landingPage.js<br/>
 Word-related actions: src/actions/words.js<br/>
 Combine-Reducers: src/reducers/index.js<br/>
 Individual word's Info-Page: src/components/infoPage.js<br/>
 
-**Back-end example routes** 
+**Back-end example routes** <br/>
 
-*Server-Root*
+*Server-Root*<br/>
 /index.js<br/>
 
-*Models*
+*Models*<br/>
 User-Model: models/userModel.js<br/>
 Word-Model: models/wordModel.js<br/>
 
-*Routes*
+*Routes*<br/>
 All Authorization passes through: routes/auth.js<br/>
 Post to create/salt a 'User': /routes/users.js<br/>
 All Private/Global word related routes: /routes/words.js<br/>
@@ -73,7 +74,7 @@ All Private/Global word related routes: /routes/words.js<br/>
 
 ### **`Concept Wireframing`**
 
-[xlingual original-wireframe concept](https://wireframepro.mockflow.com/view/M87d3e828d9e44c6ebf4afa53f2c290e61541986606422#/page/D1166cade359834db7ce4860c901cc466)
+LINK: [xlingual original-wireframe concept](https://wireframepro.mockflow.com/view/M87d3e828d9e44c6ebf4afa53f2c290e61541986606422#/page/D1166cade359834db7ce4860c901cc466)
 
 ### **`Screenshots`**
 
