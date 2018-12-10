@@ -1,4 +1,7 @@
-## xlingual Client-Side
+## xlingual 
+**DEMO LOGIN CREDENTIALS:**
+user: **demo**<br/>
+pass: **demodemodemo**<br/>
 
 Welcome to xlingual --The Global Dictionary.<br/><br/>
 
